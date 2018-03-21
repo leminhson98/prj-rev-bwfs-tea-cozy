@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+header {
+    color: #FFF;
+    background-color: black;
+    padding: 10px;
+    border-bottom: 1px solid #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+header img {
+    width: 132px;
+    height: 42px;
+}
+nav {
+    margin-right: 30px;
+}
+nav a {
+    color: #FFF;
+    padding: 0 10px;
+    font-size: 20px;
+}
+main {
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+.tea img {
+    width: 300px;
+    height: 200px;
+}
+.mission {
+    position: relative;
+}
+.mission .content {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    top: 350px;
+}
+.teas {
+    position: relative;
+    top: 40px;
+}
+.teas .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 150px;
+}
+.tea {
+    padding: 15px;
+}
+.location {
+    position: relative;
+    top: 60px
+}
+.location h1 {
+    position: absolute;
+    top: 80px;
+    left: 605px;
+}
+.location .content {
+    display: flex;
+    position: absolute;
+    top: 155px;
+    left: 175px;
+    width: 1000px;
+    justify-content: space-around;
+}
+.location .content .item {
+    background-color: black;
+    width: 300px;
+    height: 270px;
+}
+.location .content .item p {
+    font-size: 22px;
+    padding: 10px;
+    line-height: 60px;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    font-size: 18px;
+    line-height: 40px;
+}
+.copyright {
+    text-align: left;
+    font-size: 15px;
+}
+
